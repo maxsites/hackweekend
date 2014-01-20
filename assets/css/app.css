@@ -1,3 +1,12 @@
+.navbar-brand {
+  background: url("/assets/img/logo_alt_no_year.png");
+  background-size: 190px;
+  background-position: 4px 13px;
+  color: rgba(0,0,0,0);
+  width: 200px;
+  background-repeat: no-repeat;
+}
+
 .carousel {
   margin-bottom: 130px;
 }
@@ -11,12 +20,17 @@
 }
 
 .header-background {
-  -webkit-filter: grayscale(0.1) blur(11px);
+  -webkit-filter: grayscale(0.1) blur(7px);
   margin-top: -70px;
 }
 
-.logo-text {
-  color: white;
+.splash-logo {
+  margin-bottom: 30px;
+  width: 60%;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.85);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .lead-div {
