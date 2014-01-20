@@ -1,0 +1,8 @@
+exclude: [".rvmrc", ".rbenv-version", ".gitignore", "README.md", "Rakefile", "changelog.md", "Gemfile", "Gemfile.lock", "Procfile", "vendor", "app.rb"]
+name: Hackweekend
+markdown: redcarpet
+pygments: true
+relative_permalinks: true
+analytics:
+  code: UA-47294125-1
+  url: hackweekend.io
