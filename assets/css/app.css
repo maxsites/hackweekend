@@ -1,0 +1,32 @@
+.carousel {
+  margin-bottom: 130px;
+}
+
+.carousel-inner {
+  padding-top: 70px;
+}
+
+.carousel-inner > .item > img {
+  height: 570px;
+}
+
+.header-background {
+  -webkit-filter: grayscale(0.1) blur(11px);
+  margin-top: -70px;
+}
+
+.logo-text {
+  color: white;
+}
+
+.lead-div {
+  min-height: 160px;
+}
+
+.deets {
+  text-align: left;
+}
+
+.circle-feature {
+  text-align: center;
+}

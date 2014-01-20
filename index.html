@@ -1,36 +1,102 @@
 ---
-layout: jumbo
+layout: carousel
 name: Home
 permalink: /
 ---
 
-<div class="jumbotron">
-  <h1>Jumbotron heading</h1>
-  <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-  <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>
-</div>
+<div class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
 
-<div class="row marketing">
-  <div class="col-lg-6">
-    <h4>Subheading</h4>
-    <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+  <div class="carousel-inner">
+    <div class="item active">
+      <img class="header-background" src="/assets/img/header-background.jpg">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1 class="logo-text center-text">HackWeekend</h1>
+          <div class="lead-div">
+            <p class="lead col-sm-8">Whether you want to learn how to code, hack on a project, or get inspired, we have something for you. HackWeekend is a two day workshop and competition for students to learn from the best in tech and build awesome projects.</p>
+            <div class="deets lead col-sm-4">
+              <div class="deet"><div class="glyphicon glyphicon-calendar"></div> May 31 - June 1</div>
+              <div class="deet"><div class="glyphicon glyphicon-map-marker"></div> Facebook HQ in Menlo Park</div>
+              <div class="deet"><div class="glyphicon glyphicon-info-sign"></div> Talks, Demos, and Prizes</div>
+              <div class="deet"><div class="glyphicon glyphicon-user"></div> All High School and College Students Invited</div>
+            </div>
+          </div>
+          <div class="row">
+            <a class="btn btn-lg btn-primary" href="/register/" role="button">Register Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><!-- /.carousel -->
 
-    <h4>Subheading</h4>
-    <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
 
-    <h4>Subheading</h4>
-    <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+<!-- Marketing messaging and featurettes
+================================================== -->
+<!-- Wrap the rest of the page in another container to center all the content. -->
+
+<div class="container marketing">
+
+  <!-- Three columns of text below the carousel -->
+  <div class="row">
+    <div class="col-sm-4 circle-feature">
+      <img class="img-circle center-block" style="width: 140px; height: 140px;" src="/assets/img/jobs.jpg">
+      <h2>Amazing Speakers</h2>
+      <p>From the Chief Technology Officer at Facebook to Tesla Founder Elon Musk to a former astronaut from NASA, we've brought together the most interesting people we could find to talk to us about their ideas and give us advice.</p>
+
+    </div><!-- /.col-lg-4 -->
+    <div class="col-sm-4 circle-feature">
+      <img class="img-circle center-block" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;" src="/assets/img/people.jpg">
+      <h2>Interactive Workshops</h2>
+      <p>Begin or level up your tech skills through our workshops with the sponsors. Learn how to code, solder an Arduino, or do a hands on exhibit on how Pebble was built with blah.</p>
+
+    </div><!-- /.col-lg-4 -->
+    <div class="col-sm-4 circle-feature">
+      <img class="img-circle center-block" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;" src="/assets/img/laptop.jpg">
+      <h2>Hackathon Competition</h2>
+      <p>Compete with the best student developers in the Bay Area for many great prizes provided for our sponsors. You can hack all day to build your project, or showcase in our low key exhibition hall on Sunday.</p>
+
+    </div><!-- /.col-lg-4 -->
+  </div><!-- /.row -->
+
+
+  <!-- START THE FEATURETTES -->
+
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <div class="col-md-7">
+      <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
+      <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+    </div>
+    <div class="col-md-5">
+      <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src=>
+    </div>
   </div>
 
-  <div class="col-lg-6">
-    <h4>Subheading</h4>
-    <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+  <hr class="featurette-divider">
 
-    <h4>Subheading</h4>
-    <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
-
-    <h4>Subheading</h4>
-    <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+  <div class="row featurette">
+    <div class="col-md-5">
+      <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src=>
+    </div>
+    <div class="col-md-7">
+      <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+      <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+    </div>
   </div>
-</div>
 
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <div class="col-md-7">
+      <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+      <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+    </div>
+    <div class="col-md-5">
+      <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src=>
+    </div>
+  </div>
+
+  <hr class="featurette-divider">
