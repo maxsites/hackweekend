@@ -15,6 +15,10 @@
   padding-top: 70px;
 }
 
+.carousel .carousel-inner .item {
+  background: rgb(63, 27, 13);
+}
+
 .carousel-inner > .item > img {
   height: 570px;
 }
