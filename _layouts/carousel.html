@@ -16,9 +16,11 @@
     <link href="/assets/css/carousel.css" rel="stylesheet">
     <link href="/assets/css/app.css" rel="stylesheet">
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Exo+2:400,700,300,200' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target="#my-nav">
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header offset-lg-1">
@@ -30,7 +32,7 @@
           </button>
           <a class="navbar-brand" href="/"><span class="invisible">{{ site.name }}</span></a>
         </div>
-        <div class="navbar-collapse navbar-right collapse">
+        <div id="my-nav" class="navbar-collapse navbar-right collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="{{ page.permalink }}">{{ page.name }}</a></li>
             {% for page in site.data.pages %}

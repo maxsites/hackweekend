@@ -1,6 +1,9 @@
 body {
-
   font-size: 18px;
+}
+
+h2, .nav li {
+  font-family: 'Exo 2';
 }
 
 .navbar-brand {
@@ -78,4 +81,3 @@ body {
   top: 570px;
   padding: 30px 0;
 }
-
