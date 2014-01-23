@@ -7,13 +7,15 @@ body {
   background: url("/assets/img/logo_alt_no_year.png");
   background-size: 190px;
   background-position: 4px 13px;
-  color: rgba(0,0,0,0);
+  color: inherit;
   width: 200px;
   background-repeat: no-repeat;
 }
 
 .carousel {
   margin-bottom: 70px;
+  position: fixed;
+  width: 100%;
 }
 
 .carousel-inner {
@@ -41,7 +43,7 @@ body {
 
 .splash-logo {
   margin-bottom: 30px;
-  width: 60%;
+  width: 80%;
   padding: 10px;
   margin-left: auto;
   margin-right: auto;
@@ -60,10 +62,20 @@ body {
 }
 
 .gray {
-  background: #DEDEDE;
+  background-color: #dedede;
 }
 
-#sponsors {
+.white {
+  background-color: white;
+}
+
+.dark-gray {
+  background-color: #444444;
+}
+
+.relative-container {
+  position: relative;
+  top: 570px;
   padding: 30px 0;
 }
 
