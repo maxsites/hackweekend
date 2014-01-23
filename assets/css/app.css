@@ -24,7 +24,6 @@
 }
 
 .header-background {
-  -webkit-filter:grayscale(0.1) blur(7px);
   margin-top: -70px;
   background-attachment: fixed;
   position: absolute;
