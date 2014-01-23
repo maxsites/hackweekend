@@ -15,6 +15,7 @@
     <!-- Custom styles for this template -->
     <link href="/assets/css/carousel.css" rel="stylesheet">
     <link href="/assets/css/app.css" rel="stylesheet">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
   </head>
 
   <body>
@@ -29,7 +30,7 @@
           </button>
           <a class="navbar-brand" href="/"><span class="invisible">{{ site.name }}</span></a>
         </div>
-        <div class="navbar-collapse collapse">
+        <div class="navbar-collapse navbar-right collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="{{ page.permalink }}">{{ page.name }}</a></li>
             {% for page in site.data.pages %}
@@ -53,7 +54,7 @@
     {{ content }}
 
     <!-- FOOTER -->
-    <footer>
+    <footer class="container">
       <p class="pull-right"><a href="#">Back to top</a></p>
       <p>© 2014 {{ site.name }}</p>
     </footer>

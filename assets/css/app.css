@@ -1,3 +1,8 @@
+body {
+
+  font-size: 18px;
+}
+
 .navbar-brand {
   background: url("/assets/img/logo_alt_no_year.png");
   background-size: 190px;
@@ -8,7 +13,7 @@
 }
 
 .carousel {
-  margin-bottom: 130px;
+  margin-bottom: 70px;
 }
 
 .carousel-inner {
@@ -53,3 +58,12 @@
 .circle-feature {
   text-align: center;
 }
+
+.gray {
+  background: #DEDEDE;
+}
+
+#sponsors {
+  padding: 30px 0;
+}
+
