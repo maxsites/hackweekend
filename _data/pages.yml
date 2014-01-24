@@ -1,6 +1,15 @@
 -
+  name: Sponsors
+  link: /#sponsors
+-
+  name: Schedule
+  link: /#schedule
+-
+  name: FAQ
+  link: /#faq
+-
   name: About
-  link: /about
+  link: /#about
 -
   name: Contact
-  link: /contact
+  link: /#contact
