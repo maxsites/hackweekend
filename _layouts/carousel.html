@@ -8,6 +8,7 @@
     <meta name="author" content="">
 
     <title>{{ site.name }}{% if page %} | {{ page.name }}{% endif %}</title>
+    <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico" />
 
     <!-- Bootstrap core CSS -->
     <link href="/assets/css/bootstrap.css" rel="stylesheet">
@@ -35,7 +36,7 @@
         <div id="my-nav" class="navbar-collapse navbar-right collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="{{ page.permalink }}">{{ page.name }}</a></li>
-            {% for page in site.data.pages %}
+            {% for page in site.data.pages %}g8
             <li><a href="{{ page.link }}">{{ page.name }}</a></li>
             {% endfor %}
             <li class="dropdown">
