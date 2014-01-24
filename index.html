@@ -44,38 +44,24 @@ permalink: /
     <div class="container">
       <h2>Schedule <div class="fa fa-clock-o"></div></h2>
       <div class="row">
-	<div class="col-sm-6 text-center">
-          <h3>Saturday, May 31</h3>
-          <h4 class="text-muted">Workshops and Talks</h4>
+	      <div class="col-sm-6 text-left">
+          <h3 class="text-center">Saturday, May 31</h3>
+          <h4 class="text-muted text-left">Workshops and Talks</h4>
           <div class="row">
-            <p><strong>4:00pm</strong> <span>Kickoff!</span></p>
-            <p><strong>4:30pm</strong> <span>(title) - <strong>(company/speaker)</strong></span></p>
-            <p><strong>5:15pm</strong> <span>(title) - <strong>(company/speaker)</strong></span></p>
-            <p><strong>5:30pm</strong> <span>(title) - <strong>(company/speaker)</strong></span></p>
-            <p><strong>6:00pm</strong> <span>(title) - <strong>(company/speaker)</strong></span></p>
-            <p><strong>7:00pm</strong> <span>Dinner! Catered by <strong>()</strong></span></p>
-            <p><strong>7:45pm</strong> <span>(title) - <strong>(company/speaker)</strong></span></p>
-            <p><strong>8:30pm</strong> <span>(title) - <strong>(company/speaker)</strong></span></p>
-            <p><strong>9:15pm</strong> <span>(title) - <strong>(company/speaker)</strong></span></p>
-            <p><strong>9:45pm</strong> <span>(title) - <strong>(company/speaker)</strong></span></p>
-            <p><strong>10:20pm</strong> <span>(title) - <strong>(company/speaker)</strong></span></p>
-            <p><strong>11:00pm</strong> <span>(title) - <strong>(company/speaker)</strong></span></p>
-            <p><strong>12:00pm</strong> <span>Midnight Cookies! </span></p>
+            {% for event in site.data.schedule.saturday %}
+            <p><strong>{{ event.time }}</strong> <span>{{ event.title }}</span></p>
+            {% endfor %}
           </div>
-	</div>
-	<div class="col-sm-6 text-center">
-          <h3>Sunday, June 1</h3>
-          <h4 class="text-muted">Hackathon <i class="fa fa-trophy"></i></h4>
+	      </div>
+	      <div class="col-sm-6 text-left">
+          <h3 class="text-center">Sunday, June 1</h3>
+          <h4 class="text-muted text-center">Hackathon <i class="fa fa-trophy"></i></h4>
           <div class="row">
-            <p><strong>9:00am</strong> <span>Good morning! Breakfast is served.</span></p>
-            <p><strong>10:30am</strong> <span>Code Mentors from <strong>Hack the Future?</strong> around to help</span></p>
-            <p><strong>11:15pm</strong> <span>(title) - <strong>(company/speaker)</strong></span></p>
-            <p><strong>12:00pm</strong> <span>Lunch!</span></p>
-            <p><strong>12:45pm</strong> <span>(title) - <strong>(company/speaker)</strong></span></p>
-            <p><strong>2:30pm</strong> <span>Set up demos science fair-style</span></p>
-            <p><strong>4:00pm</strong> <span>Awards and closing</span></p>
+            {% for event in site.data.schedule.sunday %}
+            <p><strong>{{ event.time }}</strong> <span>{{ event.title }}</span></p>
+            {% endfor %}
           </div>
-	</div>
+	      </div>
       </div>
     </div>
   </div>
@@ -107,9 +93,9 @@ permalink: /
       <h2>Contact <i class="fa fa-envelope-o"></i></h2>
       {% for person in site.data.contact %}
       <div class="col-sm-3 text-center">
-	<h3>{{ person.name }} <a href="mailto:{{ person.email }}"><i class="fa fa-envelope"></i></a></h3>
-	<p><a href="http://{{ person.provider }}/{{ person.site }}">@{{ person.site }}</a></p>
-	<img class="contact-photo img-circle" src="{{ person.photo }}" />
+	       <h3>{{ person.name }} <a href="mailto:{{ person.email }}"><i class="fa fa-envelope"></i></a></h3>
+	       <p><a href="http://{{ person.provider }}/{{ person.site }}">@{{ person.site }}</a></p>
+	       <img class="contact-photo img-circle" src="{{ person.photo }}" />
       </div>
       {% endfor %}
     </div>

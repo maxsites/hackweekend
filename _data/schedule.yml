@@ -1,0 +1,37 @@
+saturday:
+  -
+    time: 4:00pm
+    title: Kickoff!
+  -
+    time: 4:30pm
+    title: Workshops and talks
+  -
+    time: 7:00pm
+    title: Dinner!
+  -
+    time: 7:45pm
+    title: "Workshops, talks, and hacking"
+  -
+    time: 12:00am
+    title: Midnight cookies!
+
+sunday:
+  -
+    time: 9:00am
+    title: Good morning! Breakfast is served.
+  -
+    time: 10:30am
+    title: Code Mentors around to help
+  -
+    time: 12:00pm
+    title: Lunch!
+  -
+    time: 12:45pm
+    title: Closing talks
+  -
+    time: 2:30pm
+    title: Set up demos science fair style
+  -
+    time: 4:00pm
+    title: Awards and closing
+
