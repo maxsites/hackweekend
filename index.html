@@ -93,9 +93,14 @@ permalink: /
       <h2>Contact <i class="fa fa-envelope-o"></i></h2>
       {% for person in site.data.contact %}
       <div class="col-sm-3 text-center">
-	       <h3>{{ person.name }} <a href="mailto:{{ person.email }}"><i class="fa fa-envelope"></i></a></h3>
-	       <p><a href="http://{{ person.provider }}/{{ person.site }}">@{{ person.site }}</a></p>
-	       <img class="contact-photo img-circle" src="{{ person.photo }}" />
+	       <h3>{{ person.name }}</h3>
+	       <p>
+            <a href="mailto:{{ person.email }}"><i class="fa fa-envelope"></i></a>
+            ·
+            <a href="http://{{ person.provider }}/{{ person.site }}">@{{ person.site }}</a>
+          </p>
+	       <img class="{{ person.photo-class }} img-circle" src="{{ person.photo }}" />
+         <p>{{ person.role }}</p>
       </div>
       {% endfor %}
     </div>

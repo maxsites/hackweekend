@@ -83,5 +83,9 @@ h2, .nav li {
 }
 
 .contact-photo {
-  width: 150px;
+  width: 125px;
+}
+
+.contact-photo-big {
+  width: 175px;
 }

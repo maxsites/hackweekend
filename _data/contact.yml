@@ -4,21 +4,27 @@
   site: tekknolagi
   provider: github.com
   photo: /assets/img/profile_max.jpg
+  photo-class: contact-photo-big
 -
   name: Jonathan Goldsmith
   email: jonathan@hackweekend.io
   site: jgoldsmith_
   provider: twitter.com
-  photo: http://placekitten.com/500/500
+  photo: /assets/img/profile_jon.jpg
+  photo-class: contact-photo-big
 -
   name: Trevor Nielsen
   email: trevor@hackweekend.io
   site: TrevorN
   provider: github.com
   photo: /assets/img/profile_trevor.jpg
+  photo-class: contact-photo
+  role: Vice President
 -
   name: Chris Hinstorff
   email: chris@hackweekend.io
   site: chinstorff
   provider: github.com
   photo: /assets/img/profile_chris.jpg
+  photo-class: contact-photo
+  role: Vice President
