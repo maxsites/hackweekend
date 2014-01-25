@@ -17,7 +17,6 @@ h2, .nav li {
 
 .carousel {
   margin-bottom: 70px;
-  position: fixed;
   width: 100%;
 }
 
@@ -78,7 +77,6 @@ h2, .nav li {
 
 .relative-container {
   position: relative;
-  top: 570px;
   padding: 30px 0;
 }
 
@@ -88,4 +86,8 @@ h2, .nav li {
 
 .contact-photo-big {
   width: 175px;
+}
+
+.btn-register {
+  padding: 18px 30px;
 }
