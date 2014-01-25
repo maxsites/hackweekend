@@ -18,13 +18,11 @@
   site: TrevorN
   provider: github.com
   photo: /assets/img/profile_trevor.jpg
-  photo-class: contact-photo
-  role: Vice President
+  photo-class: contact-photo-big
 -
-  name: Chris Hinstorff
+  name: Christopher Hinstorff
   email: chris@hackweekend.io
   site: chinstorff
   provider: github.com
   photo: /assets/img/profile_chris.jpg
-  photo-class: contact-photo
-  role: Vice President
+  photo-class: contact-photo-big
