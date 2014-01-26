@@ -86,12 +86,10 @@ hash: "top"
   <div id="about" class="relative-container white">
     <div class="container">
       <h2>About <i class="fa fa-info-circle"></i></h2>
-    </div>
-  </div>
-
-  <div id="contact" class="relative-container gray">
-    <div class="container">
-      <h2>Contact <i class="fa fa-phone"></i></h2>
+      {% for item in site.data.about %}
+      <h3 class="text-muted">{{ item.title }}</h3>
+      <p>{{ item.text }}</p>
+      {% endfor %}
       {% for person in site.data.contact %}
       <div class="col-sm-3 text-center">
 	       <h3>{{ person.name }}</h3>
@@ -104,6 +102,13 @@ hash: "top"
          <p>{{ person.role }}</p>
       </div>
       {% endfor %}
+    </div>
+  </div>
+
+  <div id="contact" class="relative-container gray">
+    <div class="container">
+      <h2>Contact <i class="fa fa-phone"></i></h2>
+
     </div>
   </div>
 
